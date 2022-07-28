@@ -1,4 +1,3 @@
-/* header */
 .customer-call {
   margin-left: 30%;
 }
@@ -10,13 +9,13 @@
 }
 
 .customer-call-anchor {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 
 .header-main {
-  width: 100%;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .header {
@@ -28,27 +27,25 @@
   width: 25%;
 }
 
-/* hero section */
-
 .hero-section-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   align-content: center;
   align-content: end;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
 .hero-section-btn {
-  text-decoration: none;
-  color: white;
   background-color: black;
+  color: white;
   padding: 10px 25px;
+  text-decoration: none;
 }
 
 .hero-image {
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 .hero-image img {
@@ -61,10 +58,10 @@
 
 #landing-page-banner {
   background-image: url("assets/banner.png");
-  min-height: 941px;
-  padding-top: 100px !important;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 941px;
+  padding-top: 100px !important;
 }
 
 .title-paragraph {
@@ -75,8 +72,8 @@
 }
 
 .section-paragraph-box {
-  width: 50%;
   margin-bottom: 20px;
+  width: 50%;
 }
 
 .section-paragraph {
@@ -84,30 +81,26 @@
   font-size: 13px;
 }
 
-/* services section */
-
 .servise-box {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
   align-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
 }
 
 .servise-box-img {
-  width: 17%;
-  height: 27%;
-  border: 2px #42c366 solid;
   border-radius: 70%;
+  border: 2px #42c366 solid;
+  height: 27%;
   margin-bottom: 15px;
+  width: 17%;
 }
 
 .servise-box-img img {
-  width: 55%;
   margin: 14px;
+  width: 55%;
 }
-
-/* about me */
 
 .about-container {
   background-color: #dbf9f0;
@@ -115,18 +108,18 @@
 }
 
 .about-main {
-  width: 100%;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
 }
 
 .about-box {
-  width: 100%;
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .about-me-img img {
@@ -145,11 +138,11 @@
 }
 
 .about-section-btn {
-  font-size: 13px;
-  text-decoration: none;
-  color: #42c366;
-  padding: 10px 25px;
   border: 2px solid #42c366;
+  color: #42c366;
+  font-size: 13px;
+  padding: 10px 25px;
+  text-decoration: none;
 }
 
 .global-title span {
@@ -157,18 +150,16 @@
 }
 
 .section-about-paragraph-box {
-  width: 80%;
   margin-bottom: 20px;
+  width: 80%;
 }
 
-/* testimonial section */
-
 .avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
   background-color: rgb(221, 221, 221);
+  border-radius: 40px;
+  height: 40px;
   margin: 10px 45%;
+  width: 40px;
 }
 
 .active-dot {
@@ -176,19 +167,19 @@
 }
 
 .client-box {
-  width: 23%;
   background-color: #42c366;
-  margin: 0 10px;
   border-radius: 10px;
+  margin: 0 10px;
   padding: 10px;
+  width: 23%;
 }
 
 .dot {
-  width: 15px;
-  height: 15px;
   background-color: #42c366;
-  margin: 10px 5px;
   border-radius: 20px;
+  height: 15px;
+  margin: 10px 5px;
+  width: 15px;
 }
 
 .display-dot {
@@ -205,30 +196,28 @@
 }
 
 .testimonial-box-content {
+  align-items: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .testimonial-client-box {
+  align-content: center;
   display: flex;
   flex-direction: row;
-  align-content: center;
   justify-content: center;
 }
 
 .section-testimonial-paragraph-box {
-  width: 60%;
   margin-bottom: 20px;
+  width: 60%;
 }
 
-/* questions-section */
-
 .accordion-box {
-  padding: 0px 20px;
   border: #42c366 solid 2px;
   margin-bottom: 20px;
+  padding: 0px 20px;
 }
 
 .questions-section-main {
@@ -236,70 +225,68 @@
 }
 
 .question-anchor {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 
 .question-box span {
-  font-size: 30px;
   color: #41c365;
+  font-size: 30px;
   margin-left: 50px;
 }
 
-/* contact */
-
 .contact {
-  padding: 50px 0;
-  background: url(assets/contact_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background: url(assets/contact_bg.jpg);
+  padding: 50px 0;
 }
 
 .contact .contact-title-box {
-  text-align: left;
   padding-top: 20px;
+  text-align: left;
 }
 
 .contact-title {
-  font-size: 25px;
   color: #fff;
-  line-height: 20px;
+  font-size: 25px;
   font-weight: bold;
+  line-height: 20px;
 }
 
 .contact .main_form .contact-us-input {
-  width: 100%;
-  height: 6vh;
-  border: #000 solid 1px;
-  padding: 0 10px;
-  margin-bottom: 20px;
   background: #fff;
-  color: grey;
-  font-size: 16px;
-  border-top: none;
   border-left: none;
   border-right: none;
+  border-top: none;
+  border: #000 solid 1px;
+  color: grey;
+  font-size: 16px;
+  height: 6vh;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  width: 100%;
 }
 
 .contact .main_form .send-btn {
-  font-size: 16px;
   background-color: #000;
   color: #fff;
-  padding: 12px 70px;
-  margin: 0 auto;
   display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 12px 70px;
 }
 
 .contact .main_form .contact-us-textarea {
-  margin-bottom: 25px;
-  color: grey;
-  width: 100%;
-  border: #000 solid 1px;
-  padding: 20px 10px 5px 10px;
   background: #fff;
-  border-top: none;
   border-left: none;
   border-right: none;
+  border-top: none;
+  border: #000 solid 1px;
+  color: grey;
+  margin-bottom: 25px;
+  padding: 20px 10px 5px 10px;
+  width: 100%;
 }
 
 .contact-guideline-and-btn {
@@ -308,22 +295,22 @@
 
 .contact-guideline-and-btn span {
   color: #fff;
+  display: inline-block;
   font-size: 50px;
+  font-weight: 500;
   line-height: 40px;
   padding: 70px 0px 65px 0px;
-  display: inline-block;
-  font-weight: 500;
 }
 
 .contact-guideline-and-btn a {
-  font-size: 15px;
   background-color: #fff;
   color: #41c365;
-  width: 100%;
+  display: inline-block;
+  font-size: 15px;
   max-width: 150px;
   padding: 7px 0px;
   text-align: center;
-  display: inline-block;
+  width: 100%;
 }
 
 .green-word {
@@ -335,11 +322,9 @@
   padding: 55px 40px;
 }
 
-/* Footer */
-
 .footer {
-  padding: 20px 0;
   background: #fff;
+  padding: 20px 0;
 }
 
 .f-paragraph {
@@ -356,27 +341,22 @@
   display: none !important;
 }
 
-/* ==== Mobile Resposinve === */
-
 @media screen and (max-width: 768px) {
-  /* Header */
 
   .logo {
     width: 40%;
   }
 
-  /* Banner Section */
-
   #landing-page-banner {
+    background: #c2efe7;
+    min-height: unset;
     padding-top: 80px !important;
     padding: 20px;
-    min-height: unset;
-    background: #c2efe7;
   }
 
   .h1-title {
-    margin-bottom: 15px;
     font-weight: bold;
+    margin-bottom: 15px;
   }
 
   .hero-section-content {
@@ -384,8 +364,8 @@
   }
 
   .hero-image img {
-    width: 100%;
     margin-top: 50px;
+    width: 100%;
   }
 
   .title-paragraph {
@@ -400,14 +380,10 @@
     width: 100%;
   }
 
-  /* == Service Section == */
-
   .servise-box-img {
-    width: 16%;
     height: 45%;
+    width: 16%;
   }
-
-  /* == Who we are Section == */
 
   .about-box {
     flex-direction: column;
@@ -426,11 +402,9 @@
     text-align: center !important;
   }
 
-  /* == Testimonials Section == */
-
   .client-box {
-    width: 100%;
     margin: 0px 0px;
+    width: 100%;
   }
 
   .display-box {
@@ -454,8 +428,6 @@
     gap: 40px;
   }
 
-  /* == FAQ's Section == */
-
   .questions-section-main {
     flex-direction: column;
   }
@@ -465,8 +437,8 @@
   }
 
   .question-box {
-    display: flex;
     align-items: center;
+    display: flex;
   }
 
   .question-box span {
@@ -477,8 +449,6 @@
     font-size: 12px;
     line-height: 15px;
   }
-
-  /* == Contact Us Section == */
 
   .contact-guideline-and-btn span {
     font-size: 36px;
@@ -491,9 +461,9 @@
 
   .contact .main_form .contact-us-input,
   .contact .main_form .contact-us-textarea {
-    border-top: none;
     border-left: none;
     border-right: none;
+    border-top: none;
   }
 
   .footer {
@@ -509,9 +479,9 @@
   }
 
   .visible-xs {
+    align-self: flex-end;
     display: block !important;
     font-size: 20px;
-    align-self: flex-end;
   }
 }
 
@@ -529,8 +499,8 @@
   }
 
   .question-box {
-    display: flex;
     align-items: center;
+    display: flex;
   }
 
   .question-box span {
@@ -542,32 +512,28 @@
     line-height: 15px;
   }
 
-  /* == Service Section == */
-
   .servise-box-img {
-    width: 30%;
     height: 45%;
+    width: 30%;
   }
 
   .section-paragraph-box {
-    width: 100%;
     margin-bottom: 20px;
+    width: 100%;
   }
 
-  /* == testimonial Section == */
-
   .client-box {
-    width: 30%;
     background-color: #42c366;
-    margin: 0 10px;
     border-radius: 10px;
+    margin: 0 10px;
     padding: 10px;
+    width: 30%;
   }
 
   .testimonial-client-box {
+    align-content: center;
     display: flex;
     flex-direction: row;
-    align-content: center;
     justify-content: center;
   }
 }
